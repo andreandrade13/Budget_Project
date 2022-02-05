@@ -1,0 +1,25 @@
+:root {
+    background-color: rgb(212, 200, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    
+
+}
+
+.nav__list {    
+    display: block;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    color: wheat;
+    
+    
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Control 2021</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de9a3c43c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="https://sheetdb.io/api/v1/fp7dhm7wpel6m" method="POST">
+        <section class="nav-page">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#contact" class="navigation">Contato</a></li>
+                    <li><a href="#" class="navigation">Lorem</a></li>
+                    <li><a href="#" class="navigation">Ipsum</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="top-page">
+            <div class="inline-items">
+                <i class="fas fa-money-bill-alt sizing"></i>
+                <h1 class="title1">BUDGET 2021</h1>
+                
+            </div>
+            <h2 class="title2">Inserção de Receitas/Despesas</h2>
+        </div>
+
+        <label for="recdes" class="labeled">Selecione o tipo da Entrada:</label>
+        <select name="data[entry-rd]" id="recdes" class="boxes">
+            <option value="" selected disabled>--Escolha uma opção--</option>
+            <option value="receita">Receita</option>
+            <option value="despesa">Despesa</option>
+        </select>
+
+        <label for="type-recdes" class="labeled">Escolha onde se encaixa esta Entrada:</label>
+        <select name="data[type-rd]" id="type-recdes" class="boxes">
+            <option value="" selected disabled>--Escolha uma opção--</option>
+            <option value="Aluguel">Aluguel</option>
+            <option value="Mercado">Mercado</option>
+            <option value="Salário">Salário</option>
+            <option value="Restaurantes">Restaurantes</option>
+        </select>
+
+        <label for="value-rd" class="labeled">Digite o valor:</label>
+        <input type="number" name="data[value-rd]" id="value-rd" min="0" max="1000000" step="0.01" placeholder="Digite o valor aqui..." class="boxes" required>
+
+        <button class="boxes" type="submit">Enviar!</button>
+    </form>
+
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTvy2CPPhwZDfNd2zD2rwFSydBQ1g1QtneyCXfz6gxASNkrpNrdmprzt-DR5yYxJs3v_pV4rrx0Qmvo/pubhtml?gid=1205701144&amp;single=true&amp;widget=true&amp;headers=false" class="table"></iframe>
+    <footer class="labeled">Developed by André Christofori, <a href="https://github.com/andreandrade13/Budget_Project" target="_blank">Github</a>.</footer>
+    
+    <figure id= "contact" class="contact-box">
+        <a href="https://www.linkedin.com/in/andre-christofori/" target="_blank">
+            <img class="logo1" src="linkedin.png" alt="Linkedin">
+        </a>
+        <a href="mailto:andre.ceco@gmail.com">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </figure>
+    
+    
+</body>
+</html>
